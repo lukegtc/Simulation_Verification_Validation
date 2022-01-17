@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import numpy as np
 def summation_error(aero_loads, resultant_forces):
     to_return = (sum(resultant_forces)-np.sum(aero_loads))/np.sum(aero_loads)
     return to_return
